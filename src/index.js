@@ -1,9 +1,11 @@
-let koalaContainer = <div className= "ui items"></div>
+let koalaContainer =( 
 
-koalas.forEach(koala => {
-    let koalaCard = document.createElement('div')
-    koalaCard.setAttribute('class', 'item')
-    koalaCard.style.cursor = 'pointer';
+    <div className= "ui items">
+        {koalas.map( koala => {
+            
+        })}
+    </div>)
+
 
     // Koala Card Image
     let imageContainer = document.createElement('div')
