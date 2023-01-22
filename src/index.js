@@ -1,9 +1,5 @@
-let koalaContainer = <div></div>
+let koalaContainer = <div className= "ui items"></div>
 
-koalaContainer.setAttribute('class', 'ui items')
-
-// Koala Card
-// koalas are in './public/koalas.js'
 koalas.forEach(koala => {
     let koalaCard = document.createElement('div')
     koalaCard.setAttribute('class', 'item')
